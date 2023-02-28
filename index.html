@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport"content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <title> Playlist </title>
+        <style>
+            h1{
+                background-color: rgb(8, 63, 145);
+                padding:20px;
+                border: 10px solid white;
+                margin: 20px ;
+                text-align: center;
+                width: 20%;
+                color: rgb(4, 214, 214);
+              
+            }
+            .logo{
+                width: 300px;
+                height: 300px;
+                padding-left: 40px;
+                padding-top: 30px;
+                padding-right: 40px;
+                border-radius: 50%;
+            }
+            body{
+                background-image: url(pp.gif);
+		        background-repeat: no-repeat;
+		        background-attachment: fixed;
+		        background-position: center;
+		        background-size: cover;       
+            }
+            a{
+                text-decoration: none;
+            }
+            img{
+                margin-top: 100px;
+                width: 350px;
+                height: 300px;
+                border-radius: 50%;
+            }
+            .container {
+                position: relative;
+                width: 100%;
+                max-width: 400px;
+            }
+
+            .overlay {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                opacity: 0;
+                transition: .5s ease;
+            }
+
+            .container:hover .overlay {
+                opacity: 1;
+            }
+            .text {
+                color: white;
+                font-size: 20px;
+                position: absolute;
+                top: 62%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                text-align: center;
+                font-family: sans-serif;
+            }
+            
+        </style>
+    </head>
+    <body><center><img src="logo.png" class="logo"></center>
+        <center>
+            <h1> GROUP 4 <br> PLAYLIST </h1>
+            <div class="container">
+                <img src= "Ahh.jpg">
+            <div class="overlay">
+                <a href="arlet.html"> <img src="cover.jpg"></a>
+                <div class="text"> ARLET JUSTER VERZOLA </div>
+                </div>
+                </div><br><br>
+            <div class="container">
+                <img src= "FB_IMG_1674533120139.jpg">
+            <div class="overlay">
+                <a href="apen.html"> <img src="apen.jpg"></a>
+                <div class="text"> SERAFIN PARIÑA </div>
+                </div>
+                </div><br><br>
+            <div class="container">
+                <img src= "bata.jpg">
+            <div class="overlay">
+                <a href="denmar.html"> <img src="den.jpg"></a>
+                <div class="text"> DENMAR GAMIT </div>
+            </div>
+        </center>
+    </body>
+</html>
